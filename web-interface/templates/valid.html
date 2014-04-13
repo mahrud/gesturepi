@@ -1,0 +1,34 @@
+$def with (m)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta charset="UTF-8">
+ <title>$m</title>
+ <link rel="stylesheet" href="/static/base.css">
+</head>
+<body>
+  <!--header>
+    <h1>FIXME</h1>
+  </header-->
+
+<br/>
+<br/>
+<br/>
+<br/>
+  <section style="height:200px">
+    <header class="valid">
+      <h1>Have Fun!</h1>
+      <p>$m</p>
+    </header>
+
+    <section>
+    <p>To stop, use this button to kill the program:</p>
+    <form method="POST" action="/status" class="form"  enctype="multipart/form-data">
+        <input type="submit" id="kill" value="KILL!"> 
+    </form>
+    </section>
+  </section>
+</body>
+</html>
