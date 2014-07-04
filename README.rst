@@ -1,18 +1,3 @@
-Hobby project to try out webcam image capture using Python,
-with a view to astrophotography. Initial aims included doing
-image capture under Mac OS X with control of exposure, gain,
-white balance etc. That turns out to be problematic due to
-driver issues.
+Imagine a handheld device that senses movement and let's you synthesize music, play virtual reality games, control other devices with gestures, and best of all, it is completely open and programmable! Without the need for a computer, GesturePi connects to your WiFi and acts as a website where you can choose what do you want to do with it. You can choose from already programmed apps like a drum set, a theremin, and a gesture detector, or you can easily connect a monitor and keyboard and mouse to the Raspberry Pi and make new apps yourself! This hack is designed to be a platform using which everyone can create new apps, games, and music!
 
-Currently looking at integrating an I2C orientation sensor
-via a Raspberry Pi to mimic a computerised "Goto" telescope
-mount using the Meade LX200 protocol, in order to track where
-a telescope is pointing via client software like Sky Safari:
-http://astrobeano.blogspot.co.uk/2014/01/instrumented-telescope-with-raspberry.html
-
-Potential medium/long term ambitions may
-include doing image alignment/registration and stacking -
-combining multiple frames to maximum light collection and
-cancel out noise, but also stiching images together (e.g.
-for lunar photography) using techniques similar to those for
-constructing panoramas.
+More info: http://lahacks.challengepost.com/submissions/22753-gesturepi-raspberry-pi-gyro-music
